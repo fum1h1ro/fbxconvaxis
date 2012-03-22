@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89FBDFCD1519DB1D00E83723 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89FBDFCC1519DB1D00E83723 /* main.cpp */; };
+		89FBDFCF1519DB1D00E83723 /* fbxconvaxis.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 89FBDFCE1519DB1D00E83723 /* fbxconvaxis.1 */; };
+		89FBDFDE1519E32200E83723 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FBDFDD1519E32200E83723 /* Cocoa.framework */; };
+		89FBDFE01519E33C00E83723 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FBDFDF1519E33C00E83723 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89FBDFC61519DB1D00E83723 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				89FBDFCF1519DB1D00E83723 /* fbxconvaxis.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		89FBDFC81519DB1D00E83723 /* fbxconvaxis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fbxconvaxis; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FBDFCC1519DB1D00E83723 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		89FBDFCE1519DB1D00E83723 /* fbxconvaxis.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = fbxconvaxis.1; sourceTree = "<group>"; };
+		89FBDFDD1519E32200E83723 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		89FBDFDF1519E33C00E83723 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89FBDFC51519DB1D00E83723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FBDFE01519E33C00E83723 /* SystemConfiguration.framework in Frameworks */,
+				89FBDFDE1519E32200E83723 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89FBDFBD1519DB1D00E83723 = {
+			isa = PBXGroup;
+			children = (
+				89FBDFDF1519E33C00E83723 /* SystemConfiguration.framework */,
+				89FBDFDD1519E32200E83723 /* Cocoa.framework */,
+				89FBDFCB1519DB1D00E83723 /* fbxconvaxis */,
+				89FBDFC91519DB1D00E83723 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89FBDFC91519DB1D00E83723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89FBDFC81519DB1D00E83723 /* fbxconvaxis */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89FBDFCB1519DB1D00E83723 /* fbxconvaxis */ = {
+			isa = PBXGroup;
+			children = (
+				89FBDFCC1519DB1D00E83723 /* main.cpp */,
+				89FBDFCE1519DB1D00E83723 /* fbxconvaxis.1 */,
+			);
+			path = fbxconvaxis;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89FBDFC71519DB1D00E83723 /* fbxconvaxis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FBDFD21519DB1D00E83723 /* Build configuration list for PBXNativeTarget "fbxconvaxis" */;
+			buildPhases = (
+				89FBDFC41519DB1D00E83723 /* Sources */,
+				89FBDFC51519DB1D00E83723 /* Frameworks */,
+				89FBDFC61519DB1D00E83723 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fbxconvaxis;
+			productName = fbxconvaxis;
+			productReference = 89FBDFC81519DB1D00E83723 /* fbxconvaxis */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89FBDFBF1519DB1D00E83723 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 89FBDFC21519DB1D00E83723 /* Build configuration list for PBXProject "fbxconvaxis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89FBDFBD1519DB1D00E83723;
+			productRefGroup = 89FBDFC91519DB1D00E83723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89FBDFC71519DB1D00E83723 /* fbxconvaxis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89FBDFC41519DB1D00E83723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FBDFCD1519DB1D00E83723 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89FBDFD01519DB1D00E83723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Applications/Autodesk/FBXSDK20122/include;
+				LIBRARY_SEARCH_PATHS = /Applications/Autodesk/FBXSDK20122/lib/gcc4/ub;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lfbxsdk-2012.2-staticd";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89FBDFD11519DB1D00E83723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Applications/Autodesk/FBXSDK20122/include;
+				LIBRARY_SEARCH_PATHS = /Applications/Autodesk/FBXSDK20122/lib/gcc4/ub;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "-lfbxsdk-2012.2-static";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89FBDFD31519DB1D00E83723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Autodesk/FBXSDK20122/lib/gcc4/ub\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89FBDFD41519DB1D00E83723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Autodesk/FBXSDK20122/lib/gcc4/ub\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89FBDFC21519DB1D00E83723 /* Build configuration list for PBXProject "fbxconvaxis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FBDFD01519DB1D00E83723 /* Debug */,
+				89FBDFD11519DB1D00E83723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FBDFD21519DB1D00E83723 /* Build configuration list for PBXNativeTarget "fbxconvaxis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FBDFD31519DB1D00E83723 /* Debug */,
+				89FBDFD41519DB1D00E83723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89FBDFBF1519DB1D00E83723 /* Project object */;
+}
